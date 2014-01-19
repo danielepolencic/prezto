@@ -11,3 +11,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+chruby ruby-2.1.0
+
+alias mvim="mvim --remote-tab-silent"
+
+export PATH=$PATH:./node_modules/.bin
+export PATH="/opt/homebrew-cask/Caskroom/postgres-app/9.3.1.0-alpha1/Postgres93.app/Contents/MacOS/bin:$PATH"
+
+export JAVA_HOME="$(/usr/libexec/java_home)"
