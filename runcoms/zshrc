@@ -20,3 +20,5 @@ export PATH=$PATH:./node_modules/.bin
 export PATH="/opt/homebrew-cask/Caskroom/postgres-app/9.3.1.0-alpha1/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
+
+export PATH=~/.cabal/bin:$PATH
