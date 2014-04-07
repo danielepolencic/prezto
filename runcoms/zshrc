@@ -22,3 +22,4 @@ export PATH="/opt/homebrew-cask/Caskroom/postgres-app/9.3.1.0-alpha1/Postgres93.
 export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export PATH=~/.cabal/bin:$PATH
+export CHROME_BIN=/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
