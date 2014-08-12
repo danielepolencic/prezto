@@ -23,3 +23,7 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export PATH=~/.cabal/bin:$PATH
 export CHROME_BIN=/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+
+export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/:$PKG_CONFIG_PATH
+
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
