@@ -12,7 +12,7 @@ fi
 
 # Customize to your needs...
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby ruby-2.1.0
+chruby ruby-2.1.2
 
 alias mvim="mvim --remote-tab-silent"
 
