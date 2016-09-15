@@ -33,3 +33,7 @@ export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 export PATH="/Users/pole/anaconda2/bin:$PATH"
+
+export LUA_PATH=./lua_modules/share/lua/5.2/?.lua
+export LUA_CPATH=./lua_modules/lib/lua/5.2/?.so
+export PATH=./lua_modules/bin:$PATH
