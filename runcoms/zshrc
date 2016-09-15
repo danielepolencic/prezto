@@ -27,3 +27,9 @@ export CHROME_BIN=/opt/homebrew-cask/Caskroom/google-chrome/stable-channel/Googl
 export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/:$PKG_CONFIG_PATH
 
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+export PATH="/Users/pole/anaconda2/bin:$PATH"
